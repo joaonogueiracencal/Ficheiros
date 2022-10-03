@@ -21,7 +21,7 @@ public class ManipulaFicheiros {
             switch(op){
                 case 1: Ficheiro.criaFicheiro();break;
                 case 2: Ficheiro.verificaSeExiste(); break;
-                case 3: Ficheiro.escreNoFinalFicheiro(); break;
+                case 3: Ficheiro.escreveNoFinalFicheiro(); break;
                 case 4: Ficheiro.escreveFicheiroNovo(); break;
                 case 5: Ficheiro.mostraConteudo(); break;
                 case 6: Ficheiro.mostraListaFicheiros(); break;
